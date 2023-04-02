@@ -1,0 +1,4 @@
+on boot
+    chown system system /dev/goodix_fp
+    chmod 0666 /dev/goodix_fp
+    setprop ro.hardware.fingerprint goodix
