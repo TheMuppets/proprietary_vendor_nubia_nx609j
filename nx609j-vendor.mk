@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/vendor/firmware/aw22xxx_cfg_f.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw22xxx_cfg_f.bin \
     vendor/nubia/nx609j/proprietary/vendor/firmware/aw22xxx_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw22xxx_fw.bin \
     vendor/nubia/nx609j/proprietary/vendor/firmware/tas2555_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2555_uCDSP.bin \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libArcsoftPrettyAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libArcsoftPrettyAlgorithm.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libNubiaImageAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNubiaImageAlgorithm.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libarcsoft_beautyshot_image_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot_image_algorithm.so \
@@ -86,48 +85,18 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/vendor/lib/libmmcamera_nubiacustpro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_nubiacustpro.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libnubia_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnubia_effect.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libnubia_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnubia_runtime.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libnubia_servers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnubia_servers.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libnubiaconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnubiaconfig.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libnubiamtp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnubiamtp.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/vendor.nubia.ifaa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nubia.ifaa@1.0.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper@1.0.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlgorithm.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libAltek_Alignment.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAltek_Alignment.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libArcsoftAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libArcsoftAlgorithm.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libBigAperture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBigAperture.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libBuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBuffer.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libDualCamera_Calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDualCamera_Calibration.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libIndependenceUtil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libIndependenceUtil.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libNubiaFaceClassify.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNubiaFaceClassify.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libNubiaImageAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNubiaImageAlgorithm.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libPrettyWaterMark.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPrettyWaterMark.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libarcsoft_beautyshot_image_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot_image_algorithm.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libarcsoft_beautyshot_video_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot_video_algorithm.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_shot.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_night_shot.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libbuffer_manager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbuffer_manager.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libdngcreator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdngcreator.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libhistutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhistutil.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_panorama_gp.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libmulti_exposure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulti_exposure.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libnubia_clone.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubia_clone.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libnubia_delay_recorder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubia_delay_recorder.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libnubia_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubia_effect.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libnubia_media_player.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubia_media_player.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libnubia_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubia_runtime.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libnubia_servers.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubia_servers.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libnubia_trajectory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubia_trajectory.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libnubiaconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubiaconfig.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libnubiafilescanner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubiafilescanner.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libnubiajpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubiajpeg.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libnubiamtp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubiamtp.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libpanoramahelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpanoramahelper.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libproductinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libproductinfo.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/vendor.nubia.ifaa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nubia.ifaa@1.0.so \
     vendor/nubia/nx609j/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/nubia/nx609j/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
@@ -182,16 +151,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/nubia/nx609j/proprietary/vendor/firmware/nubia_tp_jdi_fw.img:$(TARGET_COPY_OUT_VENDOR)/firmware/nubia_tp_jdi_fw.img \
     vendor/nubia/nx609j/proprietary/vendor/lib/hw/camera.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8998.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libSonyIMX318PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX318PdafLibrary.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libactuator_ak7371_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_aux.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libactuator_dw9718s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libalarmservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalarmservice_jni.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libarcsoft_picauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_picauto.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libchromatix_hi846_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi846_common.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libchromatix_hi846_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi846_cpp_ds_chromatix.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libchromatix_hi846_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi846_cpp_liveshot.so \
@@ -304,7 +269,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libhal_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_dbg.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
@@ -421,33 +385,16 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor_stub.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libscveFaceLandmarks.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceLandmarks.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceRecognition.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama_lite.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/vendor.nubia.ifaa@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nubia.ifaa@1.0-impl.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/hw/fingerprint.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8998.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8998.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8998.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlacSwDec.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libalarmservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalarmservice_jni.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
@@ -463,19 +410,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor_stub.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon_stub.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libscveFaceLandmarks.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceLandmarks.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceRecognition.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker_stub.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama_lite.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/vendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.fingerprint@1.0-service.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/vendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.fingerprint@1.0.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/vendor.nubia.ifaa@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nubia.ifaa@1.0-impl.so
