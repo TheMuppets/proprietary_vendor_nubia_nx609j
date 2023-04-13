@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/vendor/firmware/aw22xxx_cfg_f.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw22xxx_cfg_f.bin \
     vendor/nubia/nx609j/proprietary/vendor/firmware/aw22xxx_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw22xxx_fw.bin \
     vendor/nubia/nx609j/proprietary/vendor/firmware/tas2555_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2555_uCDSP.bin \
-    vendor/nubia/nx609j/proprietary/vendor/lib/android.frameworks.displayservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.displayservice@1.0.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libArcsoftPrettyAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libArcsoftPrettyAlgorithm.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libNubiaImageAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNubiaImageAlgorithm.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
@@ -92,7 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/vendor/lib/libnubiaconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnubiaconfig.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/libnubiamtp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnubiamtp.so \
     vendor/nubia/nx609j/proprietary/vendor/lib/vendor.nubia.ifaa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nubia.ifaa@1.0.so \
-    vendor/nubia/nx609j/proprietary/vendor/lib64/android.frameworks.displayservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.displayservice@1.0.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper@1.0.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlgorithm.so \
     vendor/nubia/nx609j/proprietary/vendor/lib64/libAltek_Alignment.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAltek_Alignment.so \
